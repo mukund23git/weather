@@ -20,31 +20,31 @@ async function checkWeather(city) {
     feel.innerHTML = "Feels like " +  data.main.feels_like + "°C";
     if(data.weather[0].main == "Clouds"){
         console.log("fd");
-        img.src = "/Images/light.gif"
+        img.src = "/light.gif"
     }
     else if(data.weather[0].main == "Clear"){
         console.log("fd");
-        img.src = "/Images/clear.png"
+        img.src = "/clear.png"
     }
     else if(data.weather[0].main == "Rain"){
         console.log("fd");
-        img.src = "/Images/rain.png"
+        img.src = "/rain.png"
     }
     else if(data.weather[0].main == "Drizzle"){
         console.log("fd");
-        img.src = "/Images/drizzle.png"
+        img.src = "/drizzle.png"
     }
     else if(data.weather[0].main == "Mist"){
         console.log("fd");
-        img.src = "/Images/mist.png"
+        img.src = "/mist.png"
     }
     else if(data.weather[0].main == "Smoke"){
         console.log("fd");
-        img.src = "/Images/smoke.gif"
+        img.src = "/smoke.gif"
     }
     else if(data.weather[0].main == "Haze"){
         console.log("fd");
-        img.src = "/Images/sunny.gif"
+        img.src = "/sunny.gif"
     }
 }
 
